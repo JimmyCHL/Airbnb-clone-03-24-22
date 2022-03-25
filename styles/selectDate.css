@@ -1,0 +1,27 @@
+.rdrDateRangePickerWrapper {
+    flex-direction: column !important;
+}
+
+.rdrDefinedRangesWrapper {
+    border: none !important;
+}
+
+.rdrStaticRanges {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    width: 300px !important;
+}
+
+@media only screen and (min-width: 680px) {
+    .rdrDateRangePickerWrapper {
+        flex-direction: row !important;
+    }
+    .rdrDefinedRangesWrapper {
+        border-right: solid 1px #eff2f7 !important;
+    }
+    .rdrStaticRanges {
+        flex-direction: column !important;
+        flex-wrap: no-wrap;
+        width: 226px !important;
+    }
+}
